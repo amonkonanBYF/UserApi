@@ -21,4 +21,3 @@ $retour["nbrUser"] = count($results);
 $retour["results"]["users"] = $results;
 
 echo json_encode($retour);
-
